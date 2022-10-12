@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Getting Started with Appium CSharp in 10 Minutes", "01. Getting Started with Appium CSharp in 10 Minutes", "{72C5F509-1F8B-4DF4-B76A-1CBCF0B6E924}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStartedAppiumAndroidWindows", "GettingStartedAppiumAndroidWindowsCSharp\GettingStartedAppiumAndroidWindows.csproj", "{A59AADE9-2755-42CC-A85C-337F03D3CE0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Getting Started with Appium iOS CSharp in 10 Minutes", "02. Getting Started with Appium iOS CSharp in 10 Minutes", "{A69ADAF7-0084-4EA9-A1B3-096CD3E07679}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStartedAppiumIOSMacOS", "GettingStartedAppiumIOSMacOSCSharp\GettingStartedAppiumIOSMacOS.csproj", "{BD314DB0-A7C0-4877-BA07-1611573B2139}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Getting Started with Appium for Android CSharp on Mac in 10 Minutes", "03. Getting Started with Appium for Android CSharp on Mac in 10 Minutes", "{6998B754-89D5-428E-B170-8D563CD1876D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStartedAppiumAndroidMacCSharp", "GettingStartedAppiumAndroidMacCSharp\GettingStartedAppiumAndroidMacCSharp.csproj", "{F2DD1C3D-B1C2-427D-98A7-2EFDB844C1E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Creating ADB Commands Library Appium CSharp", "05. Creating ADB Commands Library Appium CSharp", "{8A250BEC-9FAA-4EC1-ABA5-995DC6E6994D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdbCommandsLibraryAppium", "AdbCommandsLibraryAppium\AdbCommandsLibraryAppium.csproj", "{A87444CC-ED62-4D4D-989E-ECEB7833CC66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Most Complete ADB Cheat Sheet", "04. Most Complete ADB Cheat Sheet", "{DC430288-B4A5-40B2-A7BE-FDC3746993B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Execute Android Appium Tests in Docker Containers Using Selenoid", "06. Execute Android Appium Tests in Docker Containers Using Selenoid", "{797DE126-B1D8-4E2D-8BEF-7734672C4C2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecuteAndroidAppiumDocker", "ExecuteAndroidAppiumDocker\ExecuteAndroidAppiumDocker.csproj", "{E529DE85-F7C6-4430-902C-B6934DC8264A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Execute Appium Tests in the Cloud- pCloudy", "07. Execute Appium Tests in the Cloud- pCloudy", "{768BCC31-0DA7-49D2-B070-104D01FC015A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecuteAppiumTestsPCloudy", "ExecuteAppiumTestsPCloudy\ExecuteAppiumTestsPCloudy.csproj", "{0396834C-83AC-45EE-9BEE-84F91A748922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A59AADE9-2755-42CC-A85C-337F03D3CE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59AADE9-2755-42CC-A85C-337F03D3CE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59AADE9-2755-42CC-A85C-337F03D3CE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59AADE9-2755-42CC-A85C-337F03D3CE0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD314DB0-A7C0-4877-BA07-1611573B2139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD314DB0-A7C0-4877-BA07-1611573B2139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD314DB0-A7C0-4877-BA07-1611573B2139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD314DB0-A7C0-4877-BA07-1611573B2139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DD1C3D-B1C2-427D-98A7-2EFDB844C1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DD1C3D-B1C2-427D-98A7-2EFDB844C1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DD1C3D-B1C2-427D-98A7-2EFDB844C1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DD1C3D-B1C2-427D-98A7-2EFDB844C1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87444CC-ED62-4D4D-989E-ECEB7833CC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87444CC-ED62-4D4D-989E-ECEB7833CC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87444CC-ED62-4D4D-989E-ECEB7833CC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87444CC-ED62-4D4D-989E-ECEB7833CC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E529DE85-F7C6-4430-902C-B6934DC8264A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E529DE85-F7C6-4430-902C-B6934DC8264A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E529DE85-F7C6-4430-902C-B6934DC8264A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E529DE85-F7C6-4430-902C-B6934DC8264A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0396834C-83AC-45EE-9BEE-84F91A748922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0396834C-83AC-45EE-9BEE-84F91A748922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0396834C-83AC-45EE-9BEE-84F91A748922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0396834C-83AC-45EE-9BEE-84F91A748922}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A59AADE9-2755-42CC-A85C-337F03D3CE0C} = {72C5F509-1F8B-4DF4-B76A-1CBCF0B6E924}
+		{BD314DB0-A7C0-4877-BA07-1611573B2139} = {A69ADAF7-0084-4EA9-A1B3-096CD3E07679}
+		{F2DD1C3D-B1C2-427D-98A7-2EFDB844C1E0} = {6998B754-89D5-428E-B170-8D563CD1876D}
+		{A87444CC-ED62-4D4D-989E-ECEB7833CC66} = {8A250BEC-9FAA-4EC1-ABA5-995DC6E6994D}
+		{E529DE85-F7C6-4430-902C-B6934DC8264A} = {797DE126-B1D8-4E2D-8BEF-7734672C4C2B}
+		{0396834C-83AC-45EE-9BEE-84F91A748922} = {768BCC31-0DA7-49D2-B070-104D01FC015A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9AEE52C-5E93-4355-ADC6-475EDAAF52A7}
+	EndGlobalSection
+EndGlobal
